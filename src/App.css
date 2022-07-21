@@ -63,3 +63,17 @@ body {
 .input-submit {
   height: 45px;
 }
+
+p a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkcyan;
+}
+
+a:hover {
+  font-style: oblique;
+  font-weight: bold;
+  opacity: 0.6;
+}

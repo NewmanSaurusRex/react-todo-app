@@ -24,7 +24,8 @@ export default function Footer() {
         <a href="https://github.com/NewmanSaurusRex/react-todo-app/tree/master">
           open-sourced
         </a>{" "}
-        and is hosted on <a href="/">Netlify</a>.
+        and is hosted on{" "}
+        <a href="https://jazzy-blancmange-5db765.netlify.app/">Netlify</a>.
       </p>
     </footer>
   );
