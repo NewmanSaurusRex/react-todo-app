@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header.js";
+import Footer from "./Footer.js";
 import TodoList from "./TodoList.js";
 import InputToDo from "./InputTodo.js";
 import { v4 as uuidv4 } from "uuid";
@@ -73,6 +74,7 @@ const TodoContainer = () => {
           deleteTodoProps={delTodo}
           setUpdate={setUpdate}
         />
+        <Footer />
       </div>
     </div>
   );
