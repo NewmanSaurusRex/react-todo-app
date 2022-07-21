@@ -14,7 +14,7 @@ export default function Header() {
           fontWeight: "600",
           marginBottom: "46px",
           lineHeight: "16px",
-          color: "#ececec",
+          color: "rgb(297, 41, 180)",
           textTransform: "lowercase",
           textAlign: "center",
         }}
